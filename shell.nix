@@ -3,6 +3,7 @@ pkgs.mkShell {
     name = "python-shell";
     req = ./requirements.txt;
     venv = ".venv";
+    environment = ./env.sh;
     buildInputs = with pkgs;with pkgs; [
         gcc
         glibc
@@ -18,10 +19,14 @@ pkgs.mkShell {
         # Setup the virtual environment if it doesn't already exist.
         if test ! -d $venv; then
           virtualenv $venv
-          source ./$venv/bin/activate
-          pip install -r $req
-        else
-          source ./$venv/bin/activate
         fi
+
+        source ./$venv/bin/activate
+        pip install -r $req
+
+        # Setup environment
+        set -a
+        source $environment
+        set +a
     '';
 }
