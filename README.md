@@ -32,10 +32,11 @@ Configuration is done with environment variables (see `env.sh` for default confi
 
 The following variables are expected:
 
-| Variable           | Description                                            | Example                                                  |
-| ------------------ | ------------------------------------------------------ | -------------------------------------------------------- |
-| `KAFKA_BROKER_URL` | Connection to kafka broker                             | `localhost:29092`                                        |
-| `API_CONFIGS`      | JSON array of API configurations (URL and kafka topic) | `[{"URL": "https://api.example.com", "TOPIC": "api-1"}]` |
+| Variable           | Description                                                       | Example                                                                   |
+| ------------------ | ----------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| `KAFKA_BROKER_URL` | Connection to Kafka broker                                        | `localhost:29092`                                                         |
+| `KAFKA_TOPIC`      | Kafka topic name                                                  | `products`                                                                |
+| `API_CONFIGS`      | JSON array of API configurations (URL, page size and Kafka topic) | `[{"url": "https://api.example.com", "name": "api-1", "page_size": 10 }]` |
 
 ## Running
 
