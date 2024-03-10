@@ -12,6 +12,8 @@ pkgs.mkShell {
         python3Packages.pip
         git
         gitRepo 
+
+        protobuf
     ];
     # system = builtins.currentSystem;
     shellHook = ''
@@ -23,6 +25,9 @@ pkgs.mkShell {
 
         source ./$venv/bin/activate
         pip install -r $req
+
+        # Generate Protobuf classes
+        ./generate_classes.sh
 
         # Setup environment
         set -a

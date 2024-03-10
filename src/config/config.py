@@ -25,3 +25,7 @@ if not KAFKA_BROKER_URL:
 KAFKA_TOPIC = os.getenv("KAFKA_TOPIC")
 if not KAFKA_TOPIC:
     raise ValueError("KAFKA_TOPIC environment variable is not set")
+
+SCHEMA_REGISTRY_URL = os.getenv("SCHEMA_REGISTRY_URL")
+if not SCHEMA_REGISTRY_URL:
+    raise ValueError("SCHEMA_REGISTRY_URL environment variable is not set")

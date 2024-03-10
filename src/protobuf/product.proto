@@ -1,0 +1,71 @@
+syntax = "proto3";
+
+package product;
+
+message Brand {
+    optional string name = 1;
+    optional string slug = 2;
+}
+
+message Category {
+    optional string key = 1;
+    optional string name = 2;
+    optional string slug = 3;
+    optional string orderHint = 4;
+}
+
+message Price {
+    optional string baseUnitLong = 1;
+    optional string baseUnitShort = 2;
+    optional string basePriceFactor = 3;
+    optional Regular regular = 4;
+    optional Regular loyalty = 5;
+    optional string validityStart = 6;
+    optional string validityEnd = 7;
+    optional int32 crossed = 8;
+    optional int32 discountPercentage = 9;
+    optional int32 lowestPrice = 10;
+
+    message Regular {
+        optional int32 perStandardizedQuantity = 1;
+        repeated string tags = 2;
+        optional int32 value = 3;
+        optional int32 promotionQuantity = 4;
+        optional string promotionType = 5;
+        optional int32 promotionValue = 6;
+        optional int32 promotionValuePerStandardizedQuantity = 7;
+        optional string promotionText = 8;
+    }
+}
+
+message Product {
+    optional int32 ageRequiredInMonths = 1;
+    optional string amount = 2;
+    optional Brand brand = 3;
+    optional string category = 4;
+    optional string depositType = 5;
+    optional string descriptionShort = 6;
+    repeated string images = 7;
+    optional string name = 8;
+    optional string packageLabel = 9;
+    optional string packageLabelKey = 10;
+    repeated Category parentCategories = 11;
+    optional Price price = 12;
+    optional string productId = 13;
+    optional bool medical = 14;
+    optional string sku = 15;
+    optional string slug = 16;
+    optional bool purchased = 17;
+    optional string volumeLabelKey = 18;
+    optional string volumeLabelLong = 19;
+    optional string volumeLabelShort = 20;
+    optional float weight = 21;
+    optional bool weightArticle = 22;
+    optional bool weightPieceArticle = 23;
+    optional float weightPerPiece = 24;
+    optional string productMarketing = 25;
+    optional int32 maxQuantity = 26;
+    repeated string badges = 27;
+    optional int32 quantityStepSize = 28;
+    optional string descriptionLong = 29;
+}

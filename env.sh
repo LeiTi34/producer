@@ -2,6 +2,7 @@
 
 export KAFKA_BROKER_URL="localhost:29092"
 export KAFKA_TOPIC="products"
+export SCHEMA_REGISTRY_URL="http://localhost:8081"
 
 export API_CONFIGS='[
   {
