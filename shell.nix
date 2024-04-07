@@ -26,9 +26,6 @@ pkgs.mkShell {
         source ./$venv/bin/activate
         pip install -r $req
 
-        # Generate Protobuf classes
-        ./generate_classes.sh
-
         # Setup environment
         set -a
         source $environment

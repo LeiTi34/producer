@@ -1,0 +1,425 @@
+[
+  {
+    "key": "penny-0cecb7d5-e0e5-4eff-bc31-d0d7401cceaf",
+    "message": {
+      "amount": "0.5",
+      "category": "Wochenangebote",
+      "depositType": "ONEWAY",
+      "images": [
+        "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-111227-0267857191--Z0D-lPc.jpg"
+      ],
+      "name": "Zipfer Urtyp",
+      "packageLabel": "Dose",
+      "packageLabelKey": "ds",
+      "parentCategories": [
+        {
+          "key": "13024",
+          "name": "Getränke",
+          "slug": "getraenke-13024",
+          "orderHint": "000000030"
+        },
+        {
+          "key": "13026",
+          "name": "Bier & Radler",
+          "slug": "bier-und-radler-13026",
+          "orderHint": "000000020"
+        },
+        {
+          "key": "99000000",
+          "name": "Alle Angebote",
+          "slug": "alle-angebote-99000000",
+          "orderHint": "000000201"
+        },
+        {
+          "key": "99010601",
+          "name": "Angebote ab 14.03.",
+          "slug": "angebote-ab-1403",
+          "orderHint": "000000010"
+        },
+        {
+          "key": "99010601101",
+          "name": "Wochenangebote",
+          "slug": "angebote-ab-1403-wochenangebote",
+          "orderHint": "000000020"
+        }
+      ],
+      "price": {
+        "baseUnitLong": "Milliliter",
+        "baseUnitShort": "ml",
+        "basePriceFactor": "500",
+        "crossed": 159,
+        "discountPercentage": -37,
+        "regular": {
+          "perStandardizedQuantity": 99,
+          "promotionQuantity": 4,
+          "promotionType": "FROM",
+          "tags": [
+            "SO"
+          ],
+          "value": 99
+        },
+        "validityEnd": "2024-03-20",
+        "validityStart": "2024-03-14"
+      },
+      "productId": "0cecb7d5-e0e5-4eff-bc31-d0d7401cceaf",
+      "medical": false,
+      "sku": "78-111227",
+      "slug": "zipfer-urtyp-78111227",
+      "purchased": false,
+      "volumeLabelKey": "lt",
+      "volumeLabelLong": "Liter",
+      "volumeLabelShort": "liter",
+      "weight": 2.1,
+      "weightArticle": false,
+      "weightPieceArticle": false,
+      "weightPerPiece": 0
+    }
+  },
+  {
+    "key": "penny-7e81f1ca-5773-4aaa-99b3-2191886e755f",
+    "message": {
+      "amount": "0.5",
+      "category": "Framstag",
+      "depositType": "ONEWAY",
+      "images": [
+        "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-111228-0583633243-OrvXtUOS.jpg"
+      ],
+      "name": "Puntigamer Bier",
+      "packageLabel": "Dose",
+      "packageLabelKey": "ds",
+      "parentCategories": [
+        {
+          "key": "13024",
+          "name": "Getränke",
+          "slug": "getraenke-13024",
+          "orderHint": "000000030"
+        },
+        {
+          "key": "13026",
+          "name": "Bier & Radler",
+          "slug": "bier-und-radler-13026",
+          "orderHint": "000000020"
+        },
+        {
+          "key": "99000000",
+          "name": "Alle Angebote",
+          "slug": "alle-angebote-99000000",
+          "orderHint": "000000201"
+        },
+        {
+          "key": "99010624",
+          "name": "Angebote ab 21.03.",
+          "slug": "angebote-ab-2103",
+          "orderHint": "000000010"
+        },
+        {
+          "key": "99010624091",
+          "name": "Framstag",
+          "slug": "angebote-ab-2103-framstag",
+          "orderHint": "000000020"
+        }
+      ],
+      "price": {
+        "baseUnitLong": "Milliliter",
+        "baseUnitShort": "ml",
+        "basePriceFactor": "500",
+        "crossed": 129,
+        "discountPercentage": -38,
+        "regular": {
+          "perStandardizedQuantity": 79,
+          "promotionQuantity": 24,
+          "promotionType": "FROM",
+          "tags": [
+            "SO"
+          ],
+          "value": 79
+        },
+        "validityEnd": "2024-03-23",
+        "validityStart": "2024-03-22"
+      },
+      "productId": "7e81f1ca-5773-4aaa-99b3-2191886e755f",
+      "medical": false,
+      "sku": "78-111228",
+      "slug": "puntigamer-bier-78111228",
+      "purchased": false,
+      "volumeLabelKey": "lt",
+      "volumeLabelLong": "Liter",
+      "volumeLabelShort": "liter",
+      "weight": 0.5,
+      "weightArticle": false,
+      "weightPieceArticle": false,
+      "weightPerPiece": 0
+    }
+  },
+  {
+    "key": "billa-4116a28a-be62-4854-bf14-ff5f9c3c742e",
+    "message": {
+      "ageRequiredInMonths": 216,
+      "amount": "0.5",
+      "brand": {
+        "name": "Löwenbräu",
+        "slug": "loewenbraeu"
+      },
+      "category": "Dosenbier",
+      "depositType": "ONEWAY",
+      "descriptionShort": "München hat viele Originale. Doch nur ein typisches Original aus München hat einen so erfrischenden und feinherben Geschmack, wie dieses traditionsreiche Löwenbräu, das zu jeder Gelegenheit schmeckt. Beste Rohstoffe und ein feinherber Geschmack machen dieses helle Bier zu einem echt bayerischen Trinkgenuss.<li>Brauart: untergärig<li>Geschmack: Spur malzig, rein frisch, würzig, milde Hopfenbittere<li>Blume: feinporig, kompakt<li>Aussehen: hell, kräftig, gold-gelb, blank, glanzfein",
+      "images": [
+        "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-10272-1355670329-e-f9H1zS.jpg"
+      ],
+      "name": "Löwenbräu Original",
+      "packageLabel": "Dose",
+      "packageLabelKey": "ds",
+      "parentCategories": [
+        {
+          "key": "13784",
+          "name": "Getränke",
+          "slug": "getraenke-13784",
+          "orderHint": "000000340"
+        },
+        {
+          "key": "13796",
+          "name": "Bier & Radler",
+          "slug": "bier-und-radler-13796",
+          "orderHint": "000000460"
+        },
+        {
+          "key": "13798",
+          "name": "Dosenbier",
+          "slug": "dosenbier-13798",
+          "orderHint": "000000480"
+        }
+      ],
+      "price": {
+        "baseUnitLong": "Milliliter",
+        "baseUnitShort": "ml",
+        "basePriceFactor": "500",
+        "regular": {
+          "perStandardizedQuantity": 119,
+          "tags": [],
+          "value": 119
+        }
+      },
+      "productId": "4116a28a-be62-4854-bf14-ff5f9c3c742e",
+      "medical": false,
+      "sku": "00-10272",
+      "slug": "loewenbraeu-original-0010272",
+      "purchased": false,
+      "volumeLabelKey": "lt",
+      "volumeLabelLong": "Liter",
+      "volumeLabelShort": "liter",
+      "weight": 0.55,
+      "weightArticle": false,
+      "weightPieceArticle": false,
+      "weightPerPiece": 0,
+      "productMarketing": "Gebraut nach dem deutschen Reinheitsgebot. Münchner Brau-Tradition.",
+      "maxQuantity": 72
+    }
+  },
+  {
+    "key": "billa-5de2508f-be8a-4649-bdd6-812bc7654349",
+    "message": {
+      "ageRequiredInMonths": 216,
+      "amount": "0.33",
+      "brand": {
+        "name": "Eggenberg",
+        "slug": "eggenberg"
+      },
+      "category": "Flaschenbier",
+      "depositType": "ONEWAY",
+      "descriptionShort": "Erstmals in den 1970ern präsentiert, war der Urbock 23° damals das wohl erste Craft-Bier Österreichs. Wie der Name schon verrät, hat dieser Doppelbock 23° Stammwürze und nach 4 Wochen Gärung und 9 Monaten Lagerung in den Schlosskellern ergibt das einen Alkoholgehalt von 9,6% Alk. Es begeistern seine Karamell-Malznoten sowie dezente Fruchtaromen. Ein sinnlicher Doppelbock, am besten genossen im Cognac-Schwenker und einem reifen Stück Weichkäse vor dem offenen Kamin.",
+      "images": [
+        "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-1138-017240743-zxvbC1yw.jpg",
+        "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-1138-01761469537-KGZENvhy.jpg",
+        "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-1138-1672155041-nFW8IS60.jpg",
+        "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-1138-0537459220-sfr8N7H-.jpg"
+      ],
+      "name": "Eggenberg Urbock",
+      "packageLabel": "Flasche",
+      "packageLabelKey": "fl",
+      "parentCategories": [
+        {
+          "key": "13784",
+          "name": "Getränke",
+          "slug": "getraenke-13784",
+          "orderHint": "000000340"
+        },
+        {
+          "key": "13796",
+          "name": "Bier & Radler",
+          "slug": "bier-und-radler-13796",
+          "orderHint": "000000460"
+        },
+        {
+          "key": "13799",
+          "name": "Flaschenbier",
+          "slug": "flaschenbier-13799",
+          "orderHint": "000000490"
+        }
+      ],
+      "price": {
+        "baseUnitLong": "Milliliter",
+        "baseUnitShort": "ml",
+        "basePriceFactor": "500",
+        "regular": {
+          "perStandardizedQuantity": 301,
+          "tags": [],
+          "value": 199
+        }
+      },
+      "productId": "5de2508f-be8a-4649-bdd6-812bc7654349",
+      "medical": false,
+      "sku": "00-1138",
+      "slug": "eggenberg-urbock-001138",
+      "purchased": false,
+      "volumeLabelKey": "lt",
+      "volumeLabelLong": "Liter",
+      "volumeLabelShort": "liter",
+      "weight": 0.68,
+      "weightArticle": false,
+      "weightPieceArticle": false,
+      "weightPerPiece": 0,
+      "badges": [
+        "homecountry"
+      ],
+      "maxQuantity": 72
+    }
+  },
+  {
+    "key": "billa-b05895d2-ccad-41ac-a907-7468b84fbb30",
+    "message": {
+      "ageRequiredInMonths": 216,
+      "amount": "0.5",
+      "brand": {
+        "name": "Ottakringer",
+        "slug": "ottakringer"
+      },
+      "category": "Dosenbier",
+      "depositType": "ONEWAY",
+      "descriptionShort": "<li>Ausgezeichnete Qualität: Ottakringer Helles gewinnt Silber beim European Beer Star 2020.</li><li>Ausgewogen - süffig - echt</li><li>Bester Hopfen und Malz sowie mildes Quellwasser aus unserem hauseigenen Tiefquell sorgen für die ausgewogene Balance zwischen leichtem Malzaroma mit fruchtigen Noten und einer angenehmen Bittere. Unverkennbar ist auch die strohgelbe Farbe des Bieres sowie der frische Duft nach Hefe.</li><li>Alkoholgehalt: 5,2 % Vol.</li><li>Stammwürze: 11,8°</li>",
+      "images": [
+        "https://images.cdn.europe-west1.gcp.commercetools.com/723b2575-66c7-4d92-ae49-82bf1d168d26/00-11990-0105998261-nzTbG6Y8.jpg"
+      ],
+      "name": "Ottakringer Helles",
+      "packageLabel": "Dose",
+      "packageLabelKey": "ds",
+      "parentCategories": [
+        {
+          "key": "13784",
+          "name": "Getränke",
+          "slug": "getraenke-13784",
+          "orderHint": "000000340"
+        },
+        {
+          "key": "13796",
+          "name": "Bier & Radler",
+          "slug": "bier-und-radler-13796",
+          "orderHint": "000000460"
+        },
+        {
+          "key": "13798",
+          "name": "Dosenbier",
+          "slug": "dosenbier-13798",
+          "orderHint": "000000480"
+        }
+      ],
+      "price": {
+        "baseUnitLong": "Milliliter",
+        "baseUnitShort": "ml",
+        "basePriceFactor": "500",
+        "regular": {
+          "perStandardizedQuantity": 129,
+          "tags": [],
+          "value": 129
+        }
+      },
+      "productId": "b05895d2-ccad-41ac-a907-7468b84fbb30",
+      "medical": false,
+      "sku": "00-11990",
+      "slug": "ottakringer-helles-0011990",
+      "purchased": false,
+      "volumeLabelKey": "lt",
+      "volumeLabelLong": "Liter",
+      "volumeLabelShort": "liter",
+      "weight": 0.52,
+      "weightArticle": false,
+      "weightPieceArticle": false,
+      "weightPerPiece": 0,
+      "badges": [
+        "homecountry"
+      ],
+      "productMarketing": "Malz & Hopfen reichen sich die Hände für bestes österreichisches Märzenbier. Goldgelb in der Farbe ist unser Ottakringer Helles sehr ausgewogen im Geschmack. Frische und dezente Fruchtigkeit samt elegant leichter Herbe machen unseren Klassiker zu deinem Lieblingsbier.",
+      "maxQuantity": 72
+    }
+  },
+  {
+    "key": "penny-0cecb7d5-e0e5-4eff-bc31-d0d7401cceaf",
+    "message": {
+      "amount": "0.5",
+      "category": "Wochenangebote",
+      "depositType": "ONEWAY",
+      "images": [
+        "https://images.cdn.europe-west1.gcp.commercetools.com/787b77ab-692c-4e25-91f4-697690dc3c7c/78-111227-0267857191--Z0D-lPc.jpg"
+      ],
+      "name": "Zipfer Urtyp",
+      "packageLabel": "Dose",
+      "packageLabelKey": "ds",
+      "parentCategories": [
+        {
+          "key": "13024",
+          "name": "Getränke",
+          "slug": "getraenke-13024",
+          "orderHint": "000000030"
+        },
+        {
+          "key": "13026",
+          "name": "Bier & Radler",
+          "slug": "bier-und-radler-13026",
+          "orderHint": "000000020"
+        },
+        {
+          "key": "99000000",
+          "name": "Alle Angebote",
+          "slug": "alle-angebote-99000000",
+          "orderHint": "000000201"
+        },
+        {
+          "key": "99010601",
+          "name": "Angebote ab 14.03.",
+          "slug": "angebote-ab-1403",
+          "orderHint": "000000010"
+        },
+        {
+          "key": "99010601101",
+          "name": "Wochenangebote",
+          "slug": "angebote-ab-1403-wochenangebote",
+          "orderHint": "000000020"
+        }
+      ],
+      "price": {
+        "baseUnitLong": "Milliliter",
+        "baseUnitShort": "ml",
+        "basePriceFactor": "500",
+        "crossed": 159,
+        "regular": {
+          "perStandardizedQuantity": 99,
+          "tags": [
+            "SO"
+          ],
+          "value": 99
+        }
+      },
+      "productId": "0cecb7d5-e0e5-4eff-bc31-d0d7401cceaf",
+      "medical": false,
+      "sku": "78-111227",
+      "slug": "zipfer-urtyp-78111227",
+      "purchased": false,
+      "volumeLabelKey": "lt",
+      "volumeLabelLong": "Liter",
+      "volumeLabelShort": "liter",
+      "weight": 2.1,
+      "weightArticle": false,
+      "weightPieceArticle": false,
+      "weightPerPiece": 0
+    }
+  }
+]
