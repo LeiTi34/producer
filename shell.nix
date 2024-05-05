@@ -12,8 +12,6 @@ pkgs.mkShell {
         python3Packages.pip
         git
         gitRepo 
-
-        protobuf
     ];
     # system = builtins.currentSystem;
     shellHook = ''
