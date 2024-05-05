@@ -8,4 +8,4 @@ RUN --mount=type=bind,source=requirements.txt,target=requirements.txt \
 
 COPY ./src .
 
-CMD [ "python" "./main.py" ]
+CMD [ "python", "./main.py" ]
