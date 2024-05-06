@@ -8,4 +8,4 @@ RUN --mount=type=bind,source=requirements.txt,target=requirements.txt \
 
 COPY ./src .
 
-CMD ["sh", "-c", "while true; do python ./main.py; sleep 86400; done"]
+CMD [ "python", "./main.py" ]
