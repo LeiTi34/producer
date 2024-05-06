@@ -6,6 +6,6 @@ RUN --mount=type=bind,source=requirements.txt,target=requirements.txt \
     --mount=type=cache,target=/root/.cache/pip \
     pip install -r requirements.txt
 
-COPY ./src .
+COPY ./src ./src
 
-CMD [ "python", "./main.py" ]
+CMD [ "python", "./src/main.py" ]
